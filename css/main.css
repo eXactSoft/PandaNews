@@ -1,0 +1,179 @@
+/* Start Global Rules*/
+ul, ol{
+	list-style: none
+}
+/* End Global Rules*/
+*{
+	box-sizing:border-box;
+	font-family: tahoma
+}
+
+/* Start Start Top Header Section */
+.top-header{
+	width: 100%;
+	height: 112px;
+	background: url("../images/background180x180.jpg");	
+	padding: 5px
+}
+
+.top-header-logo{ 
+	width: 310px;
+	height: 100px;
+	float: left;
+}
+
+.top-header-logo img{ 
+	width: 260px;
+	height: auto 
+}
+
+.top-contacts{
+	float: right;
+	width:500px
+}
+
+.top-contacts-website, .top-contacts-phone{
+	float:left;
+	width:250px;
+}
+
+.top-contacts-phone img{
+	width:90px;
+	height:auto;
+	float: left
+}
+
+.top-contacts-website img{
+	width:95px;
+	height:auto;
+	float: left
+}
+
+.top-contacts-phone p, .top-contacts-website p{
+	float: left;
+	color: white;
+	font-weight: bold;
+	font-size:15;
+	margin-left:10px;
+	margin-top:30px
+}
+
+.top-contacts-phone span, .top-contacts-website span{
+	color: white;
+	font-weight: normal
+}
+/* End Top Header Section */
+
+
+/* Start the Menu Section */
+.top-nav{
+	width:100%;
+	line-height:35px;
+	color: #fff;
+	background-color: #000
+}
+
+.top-nav ul li{
+	display: inline-block;
+	margin-left:10px;
+}
+.top-nav ul li a{ 
+	color: #eee;
+	text-decoration:none;
+  text-align:left	
+}
+.top-nav ul li a:hover{ 
+	color: #cb5070;
+}
+/* End the Menu Section */
+
+/* Start content padding*/
+.content{
+	padding: 10px;
+}
+/* End content padding*/
+
+/* Start Welcome Section */
+.welcome-row{
+	width:100%;
+	float:left
+}
+.welcome-row img{
+	width:500px;
+	height:auto;
+	float:left
+}
+
+.welcome-row .fourty{
+	width:40%;
+	float:left;
+}
+
+.welcome-row .sixty{
+	width:60%;
+	float:right
+}
+
+.welcome-row .sixty h1{
+	font-size:30px;
+}
+.welcome-row .sixty p{
+	line-height:45px;
+	font-size:20px;
+	text-align: justify
+}
+/* End Welcome Section */
+
+/* Start Features Section */
+.features{
+	overflow:hidden; /* One of the solutions to fix the problems of the float property */
+	margin-top:10px
+}
+
+.features .feat-all{ 
+  color:#eee;
+	float:left;
+	margin:0 1%;
+	width:23%;
+	padding:1%
+}
+.features .feat-one{ 
+	background-color:blue;
+}
+.features .feat-two{ 
+	background-color:green;
+}
+.features .feat-three{ 
+	background-color:red;
+}
+.features .feat-four{ 
+	background-color:black;
+}
+
+.features  .feat-all h2{
+	font-size:20px;
+	text-align: center
+}
+.features  .feat-all p{
+	line-height:25px;
+	font-size:20px;
+	text-align: left
+}
+/* End Features Section */
+
+/* Start Footer Section*/
+.footer{
+	background-color: #000;
+	color:#fff;
+	height:35px;
+	font-size:15px;
+	text-align: center;
+	padding:10px;
+}
+/* End Footer Section*/
+
+/* Start My Framework */
+.clearfix{ /* To fix the problems of the float property */
+	clear:both
+}
+/* End My Framework */
